@@ -4,7 +4,8 @@
 ## Project Description
 This is a recreation of the two-player game, Connect4. Players take turns dropping a chip into the board by clicking on a column. The chip falls to the bottom most empty slot. When a player has 4 consecutive chips horizontally, vertically, or diagonally that player wins.
 
-<img src = "https://user-images.githubusercontent.com/57144771/170406135-df26646f-f4f5-466a-b20c-a22e3e0253eb.gif" width ="300", height = "200">
+![start menu gif](https://user-images.githubusercontent.com/57144771/170408923-c0a8c601-a7b2-4ef0-9c20-7c43e994deca.gif)
+
 ![Connect 4 gif](https://user-images.githubusercontent.com/57144771/170407727-e3f17424-3ad5-4838-b4be-11637ec99b2c.gif)
 
 ## Features

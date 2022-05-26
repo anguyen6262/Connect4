@@ -1,7 +1,6 @@
 import tkinter as tk
 from functools import partial
 
-
 class connect4():
 
     def __init__(self):
@@ -55,13 +54,6 @@ class connect4():
                               font="{Edwardian Script ITC} 18",
                               command=self.quitCallBack)
         self.quit.grid(row=8, column=2)
-
-        # image1 = Image.open("Flower1.jpg")
-        # image1= Image.resize((10,10),Image.ANTIALIAS)
-        # test = ImageTk.PhotoImage(image1)
-        # label1=tk.Label(image=test)
-        # label1.image = test
-        # label1.place(x=0,y=0)
 
         self.player1color = "blue"
         self.player2color = "red"
@@ -211,10 +203,6 @@ class connect4():
             self.openSpot(5)
         elif x > 944 and x < 1033 and y > 84 and y < 684:
             self.openSpot(6)
-        # while self.gameNotOver:
-        #     self.gameNotOver = True
-        # else:
-        #     self.gameNotOver = False
 
     def run(self):
         self.mainWin.mainloop()
